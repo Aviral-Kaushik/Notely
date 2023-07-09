@@ -11,7 +11,7 @@ import com.aviral.notely.data.ShoppingItem
 import com.aviral.notely.ui.shoppingList.ShoppingViewModel
 
 class ShoppingItemAdapter(
-    private val items: List<ShoppingItem>,
+    var items: List<ShoppingItem>,
     private val viewModel: ShoppingViewModel
 ) : RecyclerView.Adapter<ShoppingItemAdapter.ShoppingViewHolder>() {
 
